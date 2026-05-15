@@ -1,8 +1,6 @@
-# Loggy
+# 🕹️ Project Loggy 
 
-# 🕹️ Project DoomStealer (Infostealer v2)
-
-**DoomStealer** es un proyecto de investigación en ciberseguridad diseñado para demostrar vectores de ataque basados en **Ingeniería Social (Social Engineering)** y **Exfiltración de Datos Silenciosa**. 
+**Loggy** es un proyecto de investigación en ciberseguridad diseñado para demostrar vectores de ataque basados en **Ingeniería Social (Social Engineering)** y **Exfiltración de Datos Silenciosa**. 
 
 El sistema utiliza el videojuego clásico DOOM (1993) como un "decoy" (señuelo) para distraer al usuario mientras un bot de comando y control (C2), integrado con Discord, realiza tareas de monitoreo y robo de información en segundo plano.
 
