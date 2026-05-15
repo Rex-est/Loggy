@@ -29,7 +29,7 @@ import io
 
 # --- CONFIGURACIÓN ---
 BOT_TOKEN = "TOKEN" #Ingresa tu Token
-CHANNEL_ID = 1234567890 #Ingresa tu ID
+CHANNEL_ID = 0000000000000000 #Ingresa tu ID
 
 # --- LÓGICA ANTI-FORENSE ---
 def ocultar_archivo(ruta):
