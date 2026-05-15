@@ -40,4 +40,13 @@ El flujo de ataque se divide en tres fases críticas:
 Instala las librerías necesarias ejecutando el siguiente comando:
 
 ```bash
-pip install discord.py opencv-python sounddevice scipy pyautogui requests pygetwindow pynput mss python-docx webbrowser
+pip install discord.py opencv-python sounddevice scipy pyautogui requests pygetwindow pynput mss python-docx webbrowser 
+
+### 3. Configuración de Credenciales
+
+Debes editar las siguientes variables en el código fuente con tus propios datos obtenidos desde el [Discord Developer Portal](https://discord.com/developers/applications):
+
+```python
+# --- CONFIGURACIÓN ---
+BOT_TOKEN = "TU_TOKEN_AQUÍ"
+CHANNEL_ID = 0000000000000000  # Tu ID de canal de Discord
